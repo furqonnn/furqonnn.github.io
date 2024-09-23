@@ -4,7 +4,7 @@ html {
     padding: 0;
 }
 
-.conotainer {}
+.container {}
 
 
 .navbar-container {
@@ -35,7 +35,7 @@ html {
     border-radius: 10px;
 }
 
-.a-navbar {
+.a-navbar { 
     color: whitesmoke;
     text-decoration: none;
     font-weight: 800;
@@ -84,4 +84,33 @@ html {
 font-size: 40px;
 color: white;
 font-weight: 800;
+}
+
+.content-2 {
+    background-color: #9999;
+    height: 80vh;
+    display: flex;
+}
+
+.img-content-2 {
+    border-radius: 20px;
+    width: 70px;
+}
+
+.a-content-2 {
+    background-color: black;
+    background-color: white;
+    color: black;
+    text-decoration: none;
+    font-size: 30px;
+    width: 20%;
+    height: 100px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items:first baseline ;
+    border-radius: 100px;
+    box-shadow: -21px 18px 50px -7px rgba(0,0,0,0.75);
+    -webkit-box-shadow: -21px 18px 50px -7px rgba(0,0,0,0.75);
+     -moz-box-shadow: -21px 18px 50px -7px rgba(0,0,0,0.75);
 }
